@@ -1,0 +1,200 @@
+  html, body {
+      width: 100%;
+      padding: none;
+      margin: -1em -1px -1em -1px;
+
+    }
+body {
+  font-family: Myriad Pro;
+}
+#header { 
+ background: url('/images/cover-image.jpg')no-repeat;
+ background-size: cover;
+ padding: 13%;		
+ }
+
+.job-knowledge { 
+  color: #3a9c61;
+  text-align: center;
+  padding-top: 5%;
+}
+
+
+.spacing { 
+	color: #3a9c61;
+  text-align: center;
+}
+
+.dev-name {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: xx-large;
+}
+
+.dev-script { 
+	text-align: center;
+  color:white;
+  font-weight: normal;
+  font-size: x-large;
+  padding: 1em;
+}
+
+#contact-me { 
+	background: url('/images/button.gif') no-repeat;
+	background-size: 100%;
+  color: white;
+  text-align: center;
+  width: 10em;
+  height: 3em;
+  padding-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-bar {
+  background:  url('/images/green_bar.jpg') no-repeat;
+ padding-top: 1.5em;
+}
+
+#aboutme {
+  background: #f2f0e9 no-repeat;
+  background-size: cover;
+  margin-top: -1em;
+  padding-top: 1em;
+  padding-bottom: 35em;
+   }
+
+.about-me-title { 
+	font-size: xx-large;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 2em;	 
+}
+
+.small-teaser { color: #3a9c61;
+  text-align: center;
+  margin-top: -2em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+#ownpicture {
+	background: url('/images/photo_dev.png') no-repeat;
+	background-position: top center;
+	width: 20%;
+   padding: 3em;
+   margin-bottom: -31em;
+}
+
+.photo-name {
+	text-align: center;
+	padding-top: 9em;
+}
+.photo-dev{
+	text-align: center;
+	margin-top: -1.5em;
+	padding-right: 1em;
+}
+#about-sm {
+	margin-left: auto;
+}
+#about-sm li{
+	display: inline;
+	text-align: center;
+	padding-right: 1em;
+}
+.aboutmestory {
+	font-size: x-large;
+  float: right;
+  margin-left: 5%;
+  width: 60%;
+  margin-right: 5%;
+}
+#mywork {
+	background: white;
+	margin-top: 5em;
+}
+.mywork { 
+	font-size: xx-large;
+	text-align: center;
+	font-weight: normal;	 
+}
+
+.myworkintro { color: #3a9c61;
+  text-align: center;
+  margin-top: -2em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.project0 {
+  border-style: solid;
+  border color: black;
+}
+
+
+.project1 {
+	border-style: solid;
+  border color: black;
+}
+
+
+.project2 {
+	border-style: solid;
+  border color: black;
+}
+
+
+.project3 {
+	border-style: solid;
+  border color: black;
+}
+#pullbackcontact {
+  background: #f2f0e9 no-repeat;
+  background-size: 100%;
+  padding-bottom: 5em;
+}
+
+.reachme {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 2.5em;
+}
+.rm-message {
+  text-align: center;
+  font-weight: normal;
+  margin-top: -2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#linkback-cm { 
+  background: url('/images/button.gif') no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  width: 10em;
+  height: 3em;
+  padding-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+	margin-top: -1em;
+	background: #241e18 no-repeat;
+	padding-bottom: 5em;
+}
+.footercopy{
+	padding-top: 8em;
+	text-align: center;
+ color: #504b46;
+}
+#socialmedia{
+	text-align: center;
+	margin-left: -2.5em;
+}
+#socialmedia li {
+	display: inline;
+	padding: 1em;
+}
