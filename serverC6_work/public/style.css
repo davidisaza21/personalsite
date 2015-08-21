@@ -1,28 +1,40 @@
-  html, body {
-      width: 100%;
-      padding: none;
-      margin: -1em -1px -1em -1px;
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*font: inherit;*/
+    vertical-align: baseline;
+}
 
-    }
 body {
   font-family: Myriad Pro;
 }
+
 #header { 
- background: url('/images/cover-image.jpg')no-repeat;
+ background: url('/images/cover-image.jpg') no-repeat;
  background-size: cover;
- padding: 13%;		
+ min-height: 100vh;		
  }
 
 .job-knowledge { 
   color: #3a9c61;
   text-align: center;
-  padding-top: 5%;
-}
-
-
-.spacing { 
-	color: #3a9c61;
-  text-align: center;
+  padding-top: 30vh;
+  font-weight: bold;
+  font-size: large;
 }
 
 .dev-name {
@@ -37,7 +49,7 @@ body {
   color:white;
   font-weight: normal;
   font-size: x-large;
-  padding: 1em;
+  padding: 2vh;
 }
 
 #contact-me { 
@@ -45,75 +57,72 @@ body {
 	background-size: 100%;
   color: white;
   text-align: center;
-  width: 10em;
-  height: 3em;
-  padding-top: 1em;
+  width: 10vw;
+  height: 5vh;
+  padding-top: 1.5vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 #section-bar {
   background:  url('/images/green_bar.jpg') no-repeat;
- padding-top: 1.5em;
+ padding-top: 4vh;
 }
 
 #aboutme {
   background: #f2f0e9 no-repeat;
   background-size: cover;
-  margin-top: -1em;
-  padding-top: 1em;
-  padding-bottom: 35em;
+  height: 95vh;
+  margin-top: -2vh;
    }
 
 .about-me-title { 
 	font-size: xx-large;
 	text-align: center;
 	font-weight: normal;
-	padding-top: 2em;	 
+	padding-top: 8vh;	 
 }
 
 .small-teaser { color: #3a9c61;
   text-align: center;
-  margin-top: -2em;
-  padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 3vh;
 }
-
+.social_imaging {
+  width: 30vw;
+}
 #ownpicture {
-	background: url('/images/photo_dev.png') no-repeat;
-	background-position: top center;
-	width: 20%;
-   padding: 3em;
-   margin-bottom: -31em;
+  margin-left: 5vw;
+  margin-top: 4vh;
 }
-
 .photo-name {
-	text-align: center;
-	padding-top: 9em;
+  margin-left: 12.5vw;
 }
 .photo-dev{
-	text-align: center;
-	margin-top: -1.5em;
-	padding-right: 1em;
+  margin-left: 11.125vw;
 }
 #about-sm {
-	margin-left: auto;
+	margin-left: 8vw;
 }
 #about-sm li{
 	display: inline;
 	text-align: center;
-	padding-right: 1em;
+	padding-right: 1vw;
+  opacity: 0.7;
+}
+#about-sm li:hover {
+  opacity: 1;
 }
 .aboutmestory {
 	font-size: x-large;
   float: right;
-  margin-left: 5%;
-  width: 60%;
-  margin-right: 5%;
+  width: 60vw;
+  margin-top: -55vh;
+  margin-right: 5vw;
 }
 #mywork {
 	background: white;
-	margin-top: 5em;
+	margin-top: 8vh;
+  height: 50vh;
 }
 .mywork { 
 	font-size: xx-large;
@@ -123,11 +132,13 @@ body {
 
 .myworkintro { color: #3a9c61;
   text-align: center;
-  margin-top: -2em;
-  padding-top: 1em;
-  padding-bottom: 3em;
 }
-
+.projects_list li{
+  margin-top: 2vh;
+  display: inline-block;
+  text-align: center;
+  margin-left: 17.5vw;
+}
 .project0 {
   border-style: solid;
   border color: black;
@@ -150,6 +161,7 @@ body {
 	border-style: solid;
   border color: black;
 }
+
 #pullbackcontact {
   background: #f2f0e9 no-repeat;
   background-size: 100%;
@@ -186,15 +198,19 @@ body {
 	padding-bottom: 5em;
 }
 .footercopy{
-	padding-top: 8em;
+	padding-top: 8vh;
 	text-align: center;
  color: #504b46;
 }
 #socialmedia{
 	text-align: center;
-	margin-left: -2.5em;
+  margin-top: 1vh;
 }
 #socialmedia li {
 	display: inline;
 	padding: 1em;
+  opacity: 0.5;
+}
+#socialmedia li:hover{
+  opacity: 1;
 }
