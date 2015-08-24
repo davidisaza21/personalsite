@@ -165,37 +165,35 @@ body {
 #pullbackcontact {
   background: #f2f0e9 no-repeat;
   background-size: 100%;
-  padding-bottom: 5em;
+  height: 42vh;
 }
 
 .reachme {
   font-size: xx-large;
   text-align: center;
   font-weight: normal;
-  padding-top: 2.5em;
+  padding-top: 12vh;
 }
 .rm-message {
   text-align: center;
   font-weight: normal;
-  margin-top: -2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  margin-top: -1vh;
+  padding-bottom: 3vh;
 }
 #linkback-cm { 
   background: url('/images/button.gif') no-repeat;
   background-size: 100%;
   color: white;
   text-align: center;
-  width: 10em;
-  height: 3em;
-  padding-top: 1em;
+  width: 15vw;
+  height: 6vh;
+  padding-top: 3vh;
   margin-left: auto;
   margin-right: auto;
 }
 #footer {
-	margin-top: -1em;
 	background: #241e18 no-repeat;
-	padding-bottom: 5em;
+  height: 25vh;
 }
 .footercopy{
 	padding-top: 8vh;
@@ -208,7 +206,7 @@ body {
 }
 #socialmedia li {
 	display: inline;
-	padding: 1em;
+	padding: 2vh;
   opacity: 0.5;
 }
 #socialmedia li:hover{
