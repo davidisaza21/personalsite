@@ -61,6 +61,7 @@ body {
   height: 5vh;
   padding-top: 1.5vh;
   margin-left: auto;
+  display: inherit;
   margin-right: auto;
 }
 
