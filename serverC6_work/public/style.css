@@ -60,9 +60,19 @@ body {
   width: 10vw;
   height: 5vh;
   padding-top: 1.5vh;
-  margin-left: auto;
-  display: inherit;
-  margin-right: auto;
+  margin-left: 45vw;
+  display: inline-block;
+}
+#contact-me:hover {
+  background: url('/images/button_hover.gif') no-repeat;
+  background-size: 100%;
+  color: #e98e19;
+  text-align: center;
+  width: 10vw;
+  height: 5vh;
+  padding-top: 1.5vh;
+  margin-left: 45vw;
+  display: inline-block;
 }
 
 #section-bar {
@@ -99,7 +109,7 @@ body {
   margin-left: 12.5vw;
 }
 .photo-dev{
-  margin-left: 11.125vw;
+  margin-left: 12vw;
 }
 #about-sm {
 	margin-left: 8vw;
@@ -123,7 +133,7 @@ body {
 #mywork {
 	background: white;
 	margin-top: 8vh;
-  height: 50vh;
+  height: 80vh;
 }
 .mywork { 
 	font-size: xx-large;
@@ -138,29 +148,39 @@ body {
   margin-top: 2vh;
   display: inline-block;
   text-align: center;
-  margin-left: 17.5vw;
+  margin-left: 16vw;
 }
-.project0 {
-  border-style: solid;
-  border color: black;
-}
-
-
-.project1 {
-	border-style: solid;
-  border color: black;
+#project0 {
+  background:  url('/images/parlayvous.png') no-repeat;
+  background-size: cover;
+  min-width: 25vw;
+  min-height: 25vh;
 }
 
 
-.project2 {
-	border-style: solid;
-  border color: black;
+#project1 {
+  background:  url('/images/parlayvous.png') no-repeat;
+  background-size: cover;
+  min-width: 25vw;
+  min-height: 25vh;
 }
 
 
-.project3 {
-	border-style: solid;
-  border color: black;
+#project2 {
+  background:  url('/images/parlayvous.png') no-repeat;
+  background-size: cover;
+  min-width: 25vw;
+  min-height: 25vh;
+  margin-top: 10vh;
+}
+
+
+#project3 {
+  background:  url('/images/parlayvous.png') no-repeat;
+  background-size: cover;
+  min-width: 25vw;
+  min-height: 25vh;
+  margin-top: 10vh;
 }
 
 #pullbackcontact {
@@ -186,11 +206,22 @@ body {
   background-size: 100%;
   color: white;
   text-align: center;
-  width: 15vw;
-  height: 6vh;
-  padding-top: 3vh;
-  margin-left: auto;
-  margin-right: auto;
+  width: 10vw;
+  height: 5vh;
+  padding-top: 1.5vh;
+  margin-left: 45vw;
+  display: inline-block;
+}
+#linkback-cm:hover {
+  background: url('/images/button_hover.gif') no-repeat;
+  background-size: 100%;
+  color: #e98e19;
+  text-align: center;
+  width: 10vw;
+  height: 5vh;
+  padding-top: 1.5vh;
+  margin-left: 45vw;
+  display: inline-block;
 }
 #footer {
 	background: #241e18 no-repeat;
