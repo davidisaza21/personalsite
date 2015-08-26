@@ -2,5 +2,5 @@ require 'sinatra'
 require 'httparty'
 
 get '/' do
-  redirect '/jQuery.html'
+  redirect '/index.html'
 end
