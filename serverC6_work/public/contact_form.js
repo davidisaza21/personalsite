@@ -1,12 +1,14 @@
 $(function() {
 
-  $('a').click(function(evt) {
+  var form = $('#ajax-contact');
 
-    console.log('link clicked');
+    // Get the messages div.
+  var formMessages = $('#form-messages');
 
-    // evt.preventDefault();
-
+    // Set up an event listener for the contact form.
+    $(form).submit(function(event) {
+    // Stop the browser from submitting the form.
+      event.preventDefault();
   });
-
 });
 
