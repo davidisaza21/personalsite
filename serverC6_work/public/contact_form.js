@@ -10,5 +10,8 @@ $(function() {
     // Stop the browser from submitting the form.
       event.preventDefault();
   });
+  $("#contact-me").click(function(){
+    $("#header").load("contact_form.html");
+  });  
 });
 

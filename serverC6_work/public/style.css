@@ -26,7 +26,8 @@ body {
 #header { 
  background: url('/images/cover-image.jpg') no-repeat;
  background-size: cover;
- min-height: 100vh;		
+ min-height: 100vh;
+ page-break-after: always;		
  }
 
 .job-knowledge { 
@@ -110,6 +111,7 @@ body {
 }
 .photo-dev{
   margin-left: 12vw;
+  clear: both;
 }
 #about-sm {
 	margin-left: 8vw;
@@ -242,4 +244,8 @@ body {
 }
 #socialmedia li:hover{
   opacity: 1;
+}
+
+.field {
+  color: white;
 }
