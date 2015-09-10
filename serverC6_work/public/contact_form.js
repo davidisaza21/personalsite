@@ -12,6 +12,10 @@ $(function() {
   });
   $("#contact-me").click(function(){
     $("#header").load("contact_form.html");
-  });  
+  });
+  $("#linkback-cm").click(function(){
+    $("#header").load("contact_form.html");
+    $(document.body).scrollTop($('#header').offset().top);
+  });
 });
 
