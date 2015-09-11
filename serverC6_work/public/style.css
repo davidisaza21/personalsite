@@ -301,6 +301,9 @@ button {
   padding: 5vw;
 }
 @media only screen and (max-width: 500px) {
+    .job-knowledge {
+      padding-top: 15vh;
+    }
     #contact-me {
       width: 28vw;
       margin-left: 36vw;

@@ -14,4 +14,5 @@ $(function() {
   $(".exit-button").click(function(){
     $("#header").load(location.href + " #header");
   });
+  
 });
