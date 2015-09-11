@@ -18,7 +18,9 @@ time, mark, audio, video {
     /*font: inherit;*/
     vertical-align: baseline;
 }
-
+* {
+    box-sizing: border-box;
+}
 body {
   font-family: Myriad Pro;
 }
@@ -59,7 +61,7 @@ body {
   color: white;
   text-align: center;
   width: 10vw;
-  height: 5vh;
+  height: 6vh;
   padding-top: 1.5vh;
   margin-left: 45vw;
   display: inline-block;
@@ -70,7 +72,7 @@ body {
   color: #e98e19;
   text-align: center;
   width: 10vw;
-  height: 5vh;
+  height: 6vh;
   padding-top: 1.5vh;
   margin-left: 45vw;
   display: inline-block;
@@ -133,7 +135,6 @@ body {
   margin-right: 5vw;
 }
 #mywork {
-  background-color: white;
 	margin-top: 8vh;
   height: 80vh;
 }
@@ -207,7 +208,7 @@ body {
   color: white;
   text-align: center;
   width: 10vw;
-  height: 5vh;
+  height: 6vh;
   padding-top: 1.5vh;
   margin-left: 45vw;
   display: inline-block;
@@ -218,7 +219,7 @@ body {
   color: #e98e19;
   text-align: center;
   width: 10vw;
-  height: 5vh;
+  height: 6vh;
   padding-top: 1.5vh;
   margin-left: 45vw;
   display: inline-block;
@@ -298,4 +299,80 @@ button {
   font-size: 3vw;
   float: right;
   padding: 5vw;
+}
+@media only screen and (max-width: 500px) {
+    #contact-me {
+      width: 28vw;
+      margin-left: 36vw;
+    }
+    #contact-me:hover {
+      width: 28vw;
+      margin-left: 36vw;
+    }
+    .info {
+      margin-left: 5vw;
+      display: inline-block;
+    }
+    #aboutme {
+      height: auto;
+    }
+    #mywork {
+      height: auto;
+    }
+    .projects_list li {
+      margin-left: 10vw;
+    }
+    .aboutmestory {
+      margin-top: 2vh;
+      text-align: justify;
+      width: auto;
+    }
+    #ownpicture {
+      margin-left: 10vw;
+      margin-top: 2vh;
+    }
+    .photo-name {
+      margin-left: 35vw;
+    }
+    .photo-dev{
+      margin-left: 32vw;
+      clear: both;
+    }
+    #about-sm {
+      margin-left: 25vw;
+    }
+    #linkback-cm {
+      width: 28vw;
+      margin-left: 36vw;
+    }
+    #linkback-cm:hover {
+      width: 28vw;
+      margin-left: 36vw;
+    }
+    #form-title {
+      padding-top: 10vh;
+    }
+    .input-elements {
+      display: inline;
+    }
+    .message-me {
+    text-align:justify;
+    width: 55vw;
+    }
+    #name {
+      min-width: 50vw;
+      min-height: 4vh;
+      margin-top: 5vh;
+    }
+    #email {
+      min-width: 50vw;
+      min-height: 4vh;
+    }
+    #message {
+      min-width: 50vw;
+      min-height: 10svh;
+    }
+    .submit {
+      width: 28vw;
+    }
 }
