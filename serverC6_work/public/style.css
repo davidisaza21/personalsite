@@ -152,7 +152,6 @@ body {
   margin-left: 16vw;
 }
 #project0 {
-  /*background:  url('/images/parlayvous_img.jpg') no-repeat;*/
   background-size: cover;
   min-width: 25vw;
   min-height: 45vh;
@@ -160,7 +159,6 @@ body {
 
 
 #project1 {
-  /*background:  url('/images/wyngame.jpg') no-repeat;*/
   background-size: cover;
   min-width: 25vw;
   min-height: 45vh;
@@ -245,7 +243,25 @@ body {
 #socialmedia li:hover{
   opacity: 1;
 }
-
+#form-title {
+  color:white;
+  padding-top: 35vh;
+  padding-left: 25vw;
+  font-size: 5vh;
+}
 .field {
   color: white;
+  opacity: 1;
+  text-align: center;
+  margin-top: 2vh;
+  vertical-align: baseline;
+}
+#name {
+  min-width: 25vw;
+  min-height: 5vh;
+}
+#ajax-contact {
+  background-color: gray;
+  opacity: .9;
+  min-height: 100vh;
 }

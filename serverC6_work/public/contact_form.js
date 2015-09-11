@@ -18,4 +18,3 @@ $(function() {
     $(document.body).scrollTop($('#header').offset().top);
   });
 });
-
