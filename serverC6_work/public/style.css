@@ -133,6 +133,7 @@ body {
   margin-right: 5vw;
 }
 #mywork {
+  background-color: white;
 	margin-top: 8vh;
   height: 80vh;
 }
@@ -245,23 +246,56 @@ body {
 }
 #form-title {
   color:white;
-  padding-top: 35vh;
+  padding-top: 30vh;
   padding-left: 25vw;
   font-size: 5vh;
 }
 .field {
   color: white;
-  opacity: 1;
   text-align: center;
   margin-top: 2vh;
   vertical-align: baseline;
 }
+.input-elements {
+  margin-left: 5vw;
+  margin-top: 2vh;
+  color: white;
+  width: 25vw;
+  text-align: justify;
+  display: inline-table;
+}
+.message-me {
+  margin-left: 20vw;
+  color: #a3a3a3;
+}
 #name {
-  min-width: 25vw;
-  min-height: 5vh;
+  min-width: 20vw;
+  min-height: 4vh;
+}
+#email {
+  min-width: 20vw;
+  min-height: 4vh;
+}
+#message {
+  min-width: 20vw;
+  min-height: 10vh;
 }
 #ajax-contact {
-  background-color: gray;
+  background-color: #241e18;
   opacity: .9;
   min-height: 100vh;
+}
+button {
+  padding: 0;
+  border: 0;
+  background-color: #241e18;
+}
+.submit {
+  width: 15vw;
+}
+.exit-button {
+  color: white;
+  font-size: 3vw;
+  float: right;
+  padding: 5vw;
 }

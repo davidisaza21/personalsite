@@ -17,4 +17,7 @@ $(function() {
     $("#header").load("contact_form.html");
     $(document.body).scrollTop($('#header').offset().top);
   });
+  $(".exit-button").click(function(){
+    $("#header").load(location.href + " #header");
+  });
 });
