@@ -108,6 +108,9 @@ body {
   margin-left: 5vw;
   margin-top: 4vh;
 }
+.imagesize {
+  width: 300px;
+}
 .photo-name {
   margin-left: 12.5vw;
 }
